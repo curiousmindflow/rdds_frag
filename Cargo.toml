@@ -1,0 +1,8 @@
+[package]
+name = "rdds_frag"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.137", features = ["derive"] }
+rustdds = "0.7.11"
